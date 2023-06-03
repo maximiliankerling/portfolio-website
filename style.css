@@ -4,12 +4,13 @@
   --website-background: lightblue;
   --page-background: #fff;
   --left_side-background: #003147;
-  --left_side-font: #fff;
-  --icon-font:;
+  --icon-font: #03a9f4;
   --skillbar-foreground:;
-  --skillbar-background:;
-  --right_side-header-1:;
-  --right_side-header-2:;
+  --skillbar-background: #081921;
+  --right_side-header-1: #333;
+  --right_side-header-2: #848c90;
+  --right-side-header-3: #2a7da2;
+  --right_side-skillbar-background: #f0f0f0;
 }
 
 * {
@@ -75,7 +76,7 @@ body {
 }
 
 .profileText h2 {
-  color: var(--left_side-font);
+  color: var(--page-background);
   font-size: 1.5em;
   margin-top: 20px;
   text-transform: uppercase;
@@ -95,7 +96,7 @@ body {
 }
 
 .title {
-  color: #fff;
+  color: var(--page-background);
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
@@ -117,11 +118,11 @@ body {
   display: inline-block;
   width: 30px;
   font-size: 18px;
-  color: #03a9f4;
+  color: var(--icon-font);
 }
 
 .contactInfo ul li span {
-  color: #fff;
+  color: var(--page-background);
   font-weight: 300;
 }
 
@@ -134,16 +135,16 @@ body {
 }
 
 .contactInfo.education h5 {
-  color: #03a9f4;
+  color: var(--icon-font);
 }
 
 .contactInfo.education h4:nth-child(2) {
-  color: #fff;
+  color: var(--page-background);
   font-weight: 500;
 }
 
 .contactInfo.education h4 {
-  color: #fff;
+  color: var(--page-background);
   font-weight: 300;
 }
 
@@ -151,7 +152,7 @@ body {
   position: relative;
   width: 100%;
   height: 6px;
-  background: #081921;
+  background: var(--skillbar-background);
   display: block;
   margin-top: 5px;
 }
@@ -161,12 +162,12 @@ body {
   top: 0;
   left: 0;
   height: 100%;
-  background: #03a9f4;
+  background: var(--icon-font);
 }
 
 .container.right_side {
   position: relative;
-  background: #fff;
+  background: var(--page-background);
 }
 
 .about {
@@ -179,7 +180,7 @@ body {
 }
 
 .title2 {
-  color: #003147;
+  color: var(--left_side-background);
   text-transform: uppercase;
   letter-spacing: 1px;
   margin-bottom: 8px;
@@ -187,7 +188,7 @@ body {
 }
 
 p {
-  color: #333;
+  color: var(--right_side-header-1);
 }
 
 .about .box {
@@ -202,13 +203,13 @@ p {
 
 .about .box .year_company h5 {
   text-transform: uppercase;
-  color: #848c90;
+  color: var(--right_side-header-2);
   font-weight: 600;
 }
 
 .about .box .text h4 {
   text-transform: uppercase;
-  color: #2a7da2;
+  color: var(--right-side-header-3);
   font-size: 16px;
 }
 
@@ -223,7 +224,7 @@ p {
 
 .skills .box h4 {
   text-transform: uppercase;
-  color: #848c99;
+  color: var(--right_side-header-2);
   font-weight: 500;
 }
 
@@ -231,7 +232,7 @@ p {
   position: relative;
   width: 100%;
   height: 10px;
-  background: #f0f0f0;
+  background: var(--right_side-skillbar-background);
 }
 
 .skills .box .percent div {
@@ -239,7 +240,7 @@ p {
   top: 0;
   left: 0;
   height: 100%;
-  background: #03a9f4;
+  background: var(--icon-font);
 }
 
 .interest ul {
@@ -249,14 +250,14 @@ p {
 
 .interest ul li {
 list-style: none;
-color: #333;
+color: var(--right_side-header-1);
 font-weight: 500;
 margin: 10px 0;
 }
 
 .interest ul li .icon {
   display: inline-block;
-  color: #03a9f4;
+  color: var(--icon-font);
   font-size: 18px;
   width: 20px;
   padding-right: 30px;

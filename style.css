@@ -24,7 +24,9 @@ body {
   margin: 50px;
   display: grid;
   grid-template-columns: 1fr 2fr;
+  grid-gap: 20px;
   box-shadow: 0 35px 55px rgba(0,0,0,0.1);
+  padding-right: 20px;
 }
 
 .container .left_side {
@@ -68,7 +70,7 @@ body {
   text-transform: uppercase;
   text-align: center;
   font-weight: 600;
-  line-height: 1.4em;
+  line-height: 1.2em;
 }
 
 .profileText h2 span {
@@ -86,7 +88,7 @@ body {
   text-transform: uppercase;
   font-weight: 600;
   letter-spacing: 1px;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 .contactInfo ul {
@@ -96,7 +98,7 @@ body {
 .contactInfo ul li {
   position: relative;
   list-style: none;
-  margin: 10px 0;
+  margin: 6px 0;
   cursor: pointer;
 }
 
@@ -117,7 +119,7 @@ body {
 }
 
 .contactInfo.education li {
-  margin-bottom: 15px;
+  margin-bottom: 25px;
 }
 
 .contactInfo.education h5 {
@@ -154,11 +156,11 @@ body {
 .container.right_side {
   position: relative;
   background: #fff;
-  padding: 40px;
 }
 
 .about {
-  margin-bottom: 50px;
+  margin-bottom: 40px;
+  padding-top: 15px;
 }
 
 .about:last-child {
@@ -169,7 +171,7 @@ body {
   color: #003147;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-bottom: 10px;
+  margin-bottom: 8px;
 
 }
 

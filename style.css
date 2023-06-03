@@ -5,7 +5,6 @@
   --page-background: #fff;
   --left_side-background: #003147;
   --icon-font: #03a9f4;
-  --skillbar-foreground:;
   --skillbar-background: #081921;
   --right_side-header-1: #333;
   --right_side-header-2: #848c90;
@@ -264,6 +263,10 @@ margin: 10px 0;
 }
 
 @media (max-width: 1000px) {
+  .about {
+    padding-left: 40px;
+  }
+
   .container {
     margin: 10px;
     grid-template-columns: repeat(1,1fr);
@@ -275,6 +278,7 @@ margin: 10px 0;
 }
 
 @media (max-width: 600px) {
+
   .about .box {
     flex-direction: column;
   }

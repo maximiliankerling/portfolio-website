@@ -265,6 +265,7 @@ margin: 10px 0;
 @media (max-width: 1000px) {
   .about {
     padding-left: 40px;
+    padding-right: 10px;
   }
 
   .container {

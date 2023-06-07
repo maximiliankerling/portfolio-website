@@ -59,31 +59,31 @@ section {
     background-color: var(--color-primary);
 }
 
-sec1 {
+.sec1 {
     display: none;
     transform: translateY(0) scale(1);
     background-color: rgb(90, 205, 119);
 }
 
-sec2 {
+.sec2 {
     display: none;
     transform: translateY(0) scale(1);
     background-color: slateblue;
 }
 
-sec3 {
+.sec3 {
     display: none;
     transform: translateY(0) scale(1);
     background-color: rgb(96, 205, 90);
 }
 
-sec4 {
+.sec4 {
     display: none;
     transform: translateY(0) scale(1);
     background-color: slateblue;
 }
 
-sec5 {
+.sec5 {
     display: none;
     transform: translateY(0) scale(1);
 }
@@ -91,6 +91,14 @@ sec5 {
 .active {
     display: block;
     animation: scaleAnim 1s ease-in-out;
+    @keyframes scaleAnim {
+        0% {
+            transform: translateY(-100%) scaleY(0)
+        }
+        100% {
+            transform: translateY(0) scaleY(1)
+        }
+    }
 }
 
 //controls

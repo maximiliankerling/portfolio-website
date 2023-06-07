@@ -88,6 +88,11 @@ sec5 {
     transform: translateY(0) scale(1);
 }
 
+.active {
+    display: block;
+    animation: scaleAnim 1s ease-in-out;
+}
+
 //controls
 .controls {
     position: fixed;

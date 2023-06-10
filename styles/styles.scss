@@ -283,6 +283,32 @@ section {
                     background-color: var(--color-gray-4);
                     margin-left: 1rem;
                     position: relative;
+                    span {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        height: 100%;
+                        background-color: var(--color-secondary);
+                        transition: var(--transition);
+                    }
+                    .html {
+                        width: 90%;
+                    }
+                    .css {
+                        width: 90%;
+                    }
+                    .javascript {
+                        width: 85%;
+                    }
+                    .python {
+                        width: 70%;
+                    }
+                    .react {
+                        width: 80%;
+                    }
+                    .node {
+                        width: 65%;
+                    }
                 }
             }
         }

@@ -284,6 +284,32 @@ section {
   margin-left: 1rem;
   position: relative;
 }
+.about-stats .progress-bars .progress-bar .progress-con .progress span {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background-color: var(--color-secondary);
+  transition: var(--transition);
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .html {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .css {
+  width: 90%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .javascript {
+  width: 85%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .python {
+  width: 70%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .react {
+  width: 80%;
+}
+.about-stats .progress-bars .progress-bar .progress-con .progress .node {
+  width: 65%;
+}
 
 .btn-con {
   display: flex;
